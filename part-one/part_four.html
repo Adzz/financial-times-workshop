@@ -1,0 +1,58 @@
+<!--
+  There are two kinds of lists you can have in HTML. An Ordered List and an Unordered List
+
+  The ordered lists will number the list items, the unordered list will put a bullet point next to
+  the list items.
+
+  Below is an example using <ul> = unordered list, <ol> = ordered list, <li> = list item.
+
+  Below we see a really important convention emerging: indentation.
+  When we nest a tag inside of another tag, we open the initial tag, then go onto the next line,
+  then indent by two or four spaces. Then we start the nested tag, like this:
+
+  <ol>
+    <li>Snacks</li>
+    <li>Perseverance</li>
+    <li>Knowledge of HTML</li>
+  </ol>
+
+  This is a super important convention when programming, because as we make more and more complex webpages
+  we will have more nesting happening. This convention of indenting makes it much much easier to see
+  what is happening, and crucially for others to understand what is happening quicker as well. Compare:
+
+  <ol><li>Perseverance</li><li>Snacks</li><li>Knowledge of HTML</li></ol>
+
+  Yuck!
+
+  Another great tip when writing html is to open AND close the tag you are about to use immediately,
+  then go back and fill in what you want to put inside it. That way you will never have an opening
+  tag without a closing tag - which can lead to very big problems! So when I wrote the list below,
+  I wrote <ol></ol>, then went back and added the indentation, and the inner <li> tags.
+
+  You may have noticed when you played with the p tag, that the new lines didn't appear on the webpage
+  when we typed them in the p tag. This is because the computer strips out whitespace, so that we can
+  use indentation to make our code easier to read.
+
+  So what do you think we can do if we want the next sentence to actually  be on a new line? Add a new
+  p tag!
+  Try that below, then move on to part_five.html
+ -->
+
+
+<h1>Financial Times Workshop - best thing since sliced bread!</h1>
+<h2>Attendees learn HTML webpages - How To Make Lucrative webpages.</h2>
+<p>
+  Attendees at a Financial Times workshop, ran in partnership with Makers Academy, were blown away by today by how quickly they managed to progress. Coaches led the would be students in a series of practical exercises requiring skills in front end programming, and expressed surprise at how quickly everyone picked them up. Participants identified three things as essential to becoming a programmer:
+  <ul>
+    <li>Knowledge of HTML</li>
+    <li>Perseverance</li>
+    <li>Snacks</li>
+  </ul>
+  <p>In order of importance</p>
+  <ol>
+    <li>Snacks</li>
+    <li>Perseverance</li>
+    <li>Knowledge of HTML</li>
+  </ol>
+</p>
+
