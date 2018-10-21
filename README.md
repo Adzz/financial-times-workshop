@@ -10,7 +10,6 @@ What even are web pages?
 
 How the hell do you make them?
 
-
 The purpose of this session is not to teach you programming, but to teach you how to learn programming.
 
 ### How to Begin
@@ -19,3 +18,4 @@ The purpose of this session is not to teach you programming, but to teach you ho
 
 2. Download these files. Open the download files in your text editor, then begin inside the part-one folder. Inside there is a list of files. Start with index.html, then work through them in number order!
 
+Remember there is no such thing as cheating! Google-ing for answers is heavily encouraged - knowing how to ask the right questions is a vital skill for programmers.
