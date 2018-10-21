@@ -11,9 +11,11 @@ What even are web pages?
 How the hell do you make them?
 
 
-The purpose of this session is not to teach you programming, but to show you how to learn programming.
+The purpose of this session is not to teach you programming, but to teach you how to learn programming.
 
+### How to Begin
 
-We will explore some of the fundamentals that go into creating the web pages we see every day.  introduce some basic ideas and concepts in web development, and point you towards resources to continue your learning.
+1. Ensure you have a text editor on your machine (note Microsoft word is not a text editor!), I would recommend [Sublime Text](https://www.sublimetext.com/), it has an unlimited free trial!
 
+2. Download these files. Open the download files in your text editor, then begin inside the part-one folder. Inside there is a list of files. Start with index.html, then work through them in number order!
 
