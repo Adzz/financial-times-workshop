@@ -16,6 +16,8 @@ The purpose of this session is not to teach you programming, but to teach you ho
 
 1. Ensure you have a text editor on your machine (note Microsoft word is not a text editor!), I would recommend [Sublime Text](https://www.sublimetext.com/), it has an unlimited free trial!
 
-2. Download these files. Open the download files in your text editor, then begin inside the part-one folder. Inside there is a list of files. Start with `index.html`, you will find instructions inside them. Work through them in number order, completing the exercises as you go.
+2. Download these files. Open the download files in your text editor, then begin inside the part-one-structure! folder. Inside there is a list of files. Start with `index.html`, you will find instructions inside them. Work through them in number order, completing the exercises as you go.
+
+3. Move on to the next folder when you complete the first and continue like that!
 
 Remember there is no such thing as cheating! Google-ing for answers is heavily encouraged - knowing how to ask the right questions is a vital skill for programmers.
