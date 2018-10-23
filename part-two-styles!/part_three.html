@@ -1,28 +1,22 @@
 <!--
-  Hopefully you noticed the text in the H1 changed colour. Unfortunately you may also have noticed a
-  grave error by the inventor of CSS... Colour is spelt wrong!
+  Below is an example of what you may have tried. Compare it to your answer and see how you did!
 
-  In Css colour is color and centre is center. Yuck.
+  What we have done so far is targeted something on the HTML page in our CSS, then selected some styles
+  that should apply to the thing we targeted.
 
-  That aside, let's break down the syntax.
+  So far we have said "Find me all the h1's on the page, then make them red, and make their font helvetica"
+  Then we said "Find me all of the H2's on the page and make them green and their font helvetica"
 
-  h1 {
-    color: red;
+  This is great, but what if we want to make just on of the list items in the list below stand out.
+  How would we target just one list item?
+
+  Start by trying adding this to the styles below:
+
+  li {
+    color: hotpink;
   }
 
-  The H1 part we have seen before. That is the name of a tag in HTML. Then there are these curly
-  brackets. Then it looks like we give properties that apply to the h1.
-
-  Let's try adding another property. After the color: red, still within the curly brackets, put this
-
-  font-family: "Helvetica";
-
-  Then load this page and see what happens. What did you expect would happen?
-
-  Now the real challenge, see if you can change the color of the h2 tag. Hint, you can put what you
-  need inside of the same style tag as before, but after the h1 styles.
-
-  Have a go below, then move to part_three.html
+  What happens?
  -->
 
 <html>
@@ -31,6 +25,12 @@
     <style type="text/css">
       h1 {
         color: red;
+        font-family: "Helvetica";
+      }
+
+      h2 {
+        color: green;
+        font-family: "Helvetica";
       }
     </style>
   </head>
