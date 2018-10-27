@@ -1,0 +1,68 @@
+<!--
+  Nice work, that process you just did is known as Refactoring. It's a way to improve the readability
+  of the code, without changing what the code actually does.
+
+  Find out more later here: https://tech.nested.com/tech-for-the-non-technical-refactoring-2f80106db689
+
+  Now there is one more thing we can do to refactor the code. It's getting a bit messy having the css
+  and the HTML in the same file. The more we write the bigger this file will get. Instead we are going
+  to pull out the CSS into a separate file, and include it into the HTML. To do this we will use a new
+  tag in the <head> of the page, called link. It looks like this:
+
+    <link rel="stylesheet" type="text/css" href="">
+
+  Remember that href from before? We used it for a hyperlink to tell the browser where we wanted to
+  link to. The principle is the same here. We are going to add a link in our head, and the href will
+  be the path to where our CSS file is. We can ignore the other attributes for now.
+
+  Copy and paste the CSS inside the style tags into the file called styles.css in this folder, then
+  delete the style tags (and everything in them). Then in the <link> tag put the name of the CSS file
+  as the href attribute. You should be able to open this page after and it should look exactly the
+  same.
+-->
+<html>
+  <head>
+    <title>Financial Times Workshop</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <style type="text/css">
+      .nice-font {
+        font-family: "Helvetica";
+      }
+
+      h1 {
+        color: red;
+      }
+
+      h2 {
+        color: green;
+      }
+
+      .first-item {
+        color: hotpink;
+      }
+
+      .second-item {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="nice-font">Financial Times Workshop - best thing since sliced bread!</h1>
+    <h2 class="nice-font">Attendees learn HTML webpages - How To Make Lucrative webpages.</h2>
+    <p>
+      Attendees at a Financial Times workshop, ran in partnership with <a href="https://makers.tech/">Makers Academy</a>, were blown away by today by how quickly they managed to progress. Coaches led the would be students in a series of practical exercises requiring skills in front end programming, and expressed surprise at how quickly everyone picked them up. Participants identified three things as essential to becoming a programmer:
+      <ul>
+        <li class="first-item">Knowledge of HTML</li>
+        <li class="second-item">Perseverance</li>
+        <li>Snacks</li>
+      </ul>
+      <p>In order of importance:"</p>
+      <ol>
+        <li class="first-item">Snacks</li>
+        <li class="second-item">Perseverance</li>
+        <li>Knowledge of HTML</li>
+      </ol>
+    </p>
+    <img src="https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=99a036a823f65958ab245848f5091dd7&auto=format&fit=crop&w=1950&q=80">
+  </body>
+</html>

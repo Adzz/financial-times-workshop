@@ -1,0 +1,74 @@
+<!--
+  When we add a class in the HTML, we add an attribute inside the opening tag like this:
+  <li class="first-item">
+
+  Then in the CSS, we target that class by putting a full stop before the name of the class:
+
+  .first-item { ... }
+
+  This says, find me all of the bits on the page that have a class of "first-item" and apply the styles
+  inside the curly brackets to them.
+
+  Classes are great because we can write one class that is re-used in lots of places AND we can have
+  one element which has multiple classes on them.
+
+  Below I have re-used the styles applied in the first list to the second list, by simply adding classes
+  to more elements. This is excellent as it helps obey a common principle in programming DRY - Don't
+  Repeat Yourself.
+
+  We can also re-use styles by applying multiple classes to one element. We do this by putting a space
+  between the class names:
+
+  <li class="name-of-first-class name-of-second-class">
+
+  See if you can use this knowledge to change the code below so that we only write:
+
+  font-family: "Helvetica";
+
+  Once in the CSS. The webpage should look exactly the same in the browser when you open it. Only the
+  code should look slightly different.
+-->
+
+<html>
+  <head>
+    <title>Financial Times Workshop</title>
+    <style type="text/css">
+      h1 {
+        color: red;
+        font-family: "Helvetica";
+      }
+
+      h2 {
+        color: green;
+        font-family: "Helvetica";
+      }
+
+      .first-item {
+        color: hotpink;
+      }
+
+      .second-item {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Financial Times Workshop - best thing since sliced bread!</h1>
+    <h2>Attendees learn HTML webpages - How To Make Lucrative webpages.</h2>
+    <p>
+      Attendees at a Financial Times workshop, ran in partnership with <a href="https://makers.tech/">Makers Academy</a>, were blown away by today by how quickly they managed to progress. Coaches led the would be students in a series of practical exercises requiring skills in front end programming, and expressed surprise at how quickly everyone picked them up. Participants identified three things as essential to becoming a programmer:
+      <ul>
+        <li class="first-item">Knowledge of HTML</li>
+        <li class="second-item">Perseverance</li>
+        <li>Snacks</li>
+      </ul>
+      <p>In order of importance:"</p>
+      <ol>
+        <li class="first-item">Snacks</li>
+        <li class="second-item">Perseverance</li>
+        <li>Knowledge of HTML</li>
+      </ol>
+    </p>
+    <img src="https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=99a036a823f65958ab245848f5091dd7&auto=format&fit=crop&w=1950&q=80">
+  </body>
+</html>
