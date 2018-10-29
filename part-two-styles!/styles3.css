@@ -1,0 +1,28 @@
+.nice-font {
+  font-family: "Helvetica";
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+.first-item {
+  color: hotpink;
+}
+
+.second-item {
+  color: red;
+}
+
+.pensive-cat {
+  height: 250px;
+  /*
+    note how if we leave out width, the browser
+    creates it automatically for us, ensuring the img keeps
+    its aspect ratio.
+  */
+}
