@@ -1,0 +1,176 @@
+<!--
+  We have looked at enough tools by now that we can start to understand a file even as big and scary
+  as this one.
+
+  Take a look at the first <link> tag in the head. Notice how the href points to somewhere on the internet,
+  rather than somewhere on our local computer?
+
+  Similar to how we could add a photo from the internet by putting a web address in the <img> href,
+  we can also add other people's code by putting a web address into the <link>'s href!
+
+  The first link tag links to a giant CSS file written by the developers of the Financial Times. You can make
+  use of the code they have written by putting classes on our HTML elements.
+
+  Take a look through this file. Open it in the browser and see if you can break it down into parts
+  you can understand.
+
+  Try adding and removing parts to see what changes.
+-->
+
+<html lang="en" class="o-hoverable-on core">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Makers Turns 5 | Financial Times</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <script src="//cdn.polyfill.io/v2/polyfill.min.js?features=CustomEvent,Array.from,Event,Element.prototype.classList,Array.prototype.forEach,Array.prototype.map,Array.prototype.filter,requestAnimationFrame,default"></script>
+    <link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-header@^7.5.13,o-crossword@^1.8.3,o-quote@^2.1.3,o-share@^6.2.0,o-grid@^4.4.4,o-typography@^5.7.8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-header@^7.5.13,o-crossword@^1.8.3,o-quote@^2.1.3,o-share@^6.2.0,o-grid@^4.4.4,o-teaser@^2.3.1"></script>
+</head>
+
+<body>
+	<header class="o-header o-header--simple" data-o-component="o-header" data-o-header--no-js="">
+		<div class="o-header__row o-header__top">
+			<div class="o-header__container">
+				<div class="o-header__top-wrapper">
+
+					<div class="o-header__top-column o-header__top-column--left">
+
+						<a href="#o-header-search" class="o-header__top-link o-header__top-link--search" aria-controls="o-header-search"
+						 title="Open search bar">
+							<span class="o-header__top-link-label">Search</span>
+						</a>
+					</div>
+
+					<div class="o-header__top-column o-header__top-column--center">
+						<a class="o-header__top-logo" href="/" title="Go to Financial Times homepage">
+							<span class="o-header__visually-hidden">Financial Times</span>
+						</a>
+					</div>
+
+					<div class="o-header__top-column o-header__top-column--right">
+						<a class="o-header__top-link o-header__top-link--myft" href="/myft" aria-label="My F T">
+							<span class="o-header__visually-hidden">myFT</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<div class="o-grid-container">
+		<div class="o-grid-row" data-o-grid-colspan="12 S11 Scenter M9 L8 XL7">
+			<div>
+				<a class="o-typography-topic" href="https://www.ft.com/german-election" class="">Computer Coding</a>
+			</div>
+			<h1 class="o-typography-headline">Makers turns 5 years old in 2018</h1>
+			<div class="o-typography-standfirst">Computer coding school in Shoreditch has changed the lives of over 1,300 people over 5 years</div>
+			<div class="o-typography-wrapper">
+				<figure>
+					<img width="100%" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fmakers.tech%2Fwp-content%2Fuploads%2F2018%2F05%2Fnewsletter-bg.jpg?source=makers&width=700"
+					 alt="pairing">
+					<figcaption class="o-typography-caption">Students Pair Programme at Makers</figcaption>
+				</figure>
+
+				<p>Our mission is  to transform lives, accelerating the careers of software development professionals by integrating training with employment.</p>
+
+				<p>Five years ago, co-founders Evgeny and Rob met at Forward Labs and got to talking about the problems people have learning to code. Evgeny had trained as a software developer at Imperial College and as he was trying to build out his team he discovered a lack of qualified developers on the market. Rob had been through the an arduous process of teaching himself to program through a book on Objective C.</p>
+
+				<p>…the average number of University students studying computer science have increased by 1%, while the number of jobs have increased 21%. As Marc Andreessen so famously puts it, software really is eating the world. With this increase in the demand for people that know how to program, where are they going to come from? Is four years at University sitting through lectures and getting drunk three nights per week truly the most efficient way to learn?</p>
+
+				<p>The vision they had was for Makers Academy to be an alternative to university and a vocational route into a job as a software developer. Makers would train people to become software engineers in only three months — it would be a platform to provide the world’s most efficient introduction to programming principles.</p>
+
+				<h4>As we approach our 5th birthday, we’re proud to have:</h4>
+
+				<ul>
+					<li>Trained over 1300 Makers (on average 30% of them were women);</li>
+					<li>Connected them to over 250 of London’s top technology companies (Deliveroo, British Gas, Starling Bank, Financial Times, Compare The Market.com, Tesco, among others);</li>
+					<li>Been profitable without external capital except the seed round;</li>
+					<li>Grown to a team of 35, with the philosophy of ‘trust over fear’ — we still set our own salaries;</li>
+					<li>Been included in this year’s UpScale cohort, which aims to support the growth of the UK’s most exciting and innovative companies — we’re excited to leverage that to widen our impact on the tech industry.</li>
+				</ul>
+
+				<h4>Everyone deserves a job they love (including you)</h4>
+
+				<p>Today our CEO Evgeny reflects:</p>
+				<p>“I’m really proud of all the lives we touched over the last five years, having trained over 1248 software developers. This is really what’s been driving the business from the very beginning. I distinctly remember a conversation with Rob, my co-founder, at the end of the first year.</p>
+
+				<p>We said that even if Makers Academy isn’t successful — many startups fail! — the effort was still worth it because of all the lives we changed for the better.</p>
+
+				<p>Since then our ambition widened to changing not only individual careers but the tech industry as a whole — can it be more diverse? more inclusive? with better employment practices?</p>
+
+				<p>In the last five years the tech industry in the UK went from “we don’t hire juniors, period” to “how can we hire and support the best junior developers”. If Makers Academy played a small part in that, the work we’ve been doing wasn’t in vain.”</p>
+
+			</div>
+			<div data-o-component="o-share" class="o-share">
+				<ul>
+					<li class="o-share__action">
+						<a class="o-share__icon o-share__icon--twitter" href="https://twitter.com/intent/tweet?url=http%3A//makers.tech&amp;text=I%20just%20took%20part%20in%20an%20Intro%20to%20Code%20workshop%20at%20the%20FT%Headquarters%20put%20on%20by%20coding%20school%20Makers"
+						 rel="noopener"><span class="o-share__text">Twitter</span></a>
+					</li>
+					<li class="o-share__action">
+						<a class="o-share__icon o-share__icon--facebook" href="http://www.facebook.com/sharer.php?u=http%3A//makers.tech"
+						 rel="noopener"><span class="o-share__text">Facebook</span></a>
+					</li>
+					<li class="o-share__action">
+						<a class="o-share__icon o-share__icon--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A//makers.tech&amp;title=I%20just%20took%20part%20in%20an%20Intro%20to%20Code%20workshop%20at%20the%20FT%Headquarters%20put%20on%20by%20coding%20school%20Makers"
+						 rel="noopener"><span class="o-share__text">LinkedIn</span></a>
+					</li>
+					<li class="o-share__action">
+						<button class="o-share__icon o-share__icon--mail"><span class="o-share__text">Mail</span></button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div style="width: 100%;margin: 0 15%;">
+		<div class="o-crossword" data-o-component="o-crossword" data-o-crossword-data="---
+			version: standard v1
+			name: anon 1
+			author: PETO
+			editor: Colin Inman
+			copyright: 2016, Financial Times
+			publisher: Financial Times
+			pubdate: 2016/03/02
+			size: 15x15
+			across:
+			- (1,1) 1. Writing a set of instructions for a computer (XXXXXXXXXXX)
+			- (13,1) 3. Animated image format (XXX)
+			- (3,3) 5. Fixing an error in your code (XXXXXXXXX)
+			- (3,5) 6. Restructuring existing computer code (XXXXXXXX)
+			- (9,8) 9. Top of webpage (XXXX)
+			- (1,9) 10. Hypertext Markup Language (XXXX)
+			- (12,9) 11. A human-readable data serialization language (XXXX)
+			- (2,11) 12. Browser based code, not your back (XXXXXXXX)
+			- (9,12) 13. 'img' tag (XXXXX)
+			- (2,14) 15. Father of modern computing, Alan (XXXXXX)
+			- (13,14) 16. Cascading Stylesheets (XXX)
+
+
+			down:
+			- (1,1) 1. 'p' tag (XXXXXXXXX)
+			- (3,1) 2. What kind of list is an 'o' tag (XXXXXXX)
+			- (15,1) 4. Well known finance newspaper (XXXXXXXXX,XXXXX)
+			- (7,5) 7. What you're typing at right now (XXXXXXXX)
+			- (12,6) 8. Main section of an HTML document (XXXX)
+			- (9,8) 9. 'h' tag (XXXXXXX)
+			- (2,11) 12. The style of text (XXXX)
+			- (4,13) 14. Source attribute (XXX)
+			#
+			# [coordinates of clue in grid]: (across,down). (1,1) = top left, (17,17)=bottom right.
+			# (WORDS,IN,ANSWER): capitalised, and separated by commas or hyphens.
+			---">
+			<table class="o-crossword-table" cellspacing="0"></table>
+			<ul class="o-crossword-clues"></ul>
+			<img src="https://www.ft.com/__origami/service/image/v2/images/raw/https://raw.githubusercontent.com/ftlabs/o-crossword/master/src/img/empty.gif?source=o-crossword"
+			 class="empty-fallback hidden">
+		</div>
+	</div>
+
+
+	<script src="//www.ft.com/__origami/service/build/v2/bundles/js?modules=o-crossword%401.8.3%3A%2Fdemos%2Fsrc%2Fdemo.js"></script>
+	<script src="//registry.origami.ft.com/embedapi?autoload=resize"></script>
+
+</body>
